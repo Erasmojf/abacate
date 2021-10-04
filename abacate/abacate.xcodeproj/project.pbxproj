@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F36FC8D6270B40A40007B7C8 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36FC8D5270B40A40007B7C8 /* HeaderModel.swift */; };
+		F36FC8D8270B4AAF0007B7C8 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36FC8D7270B4AAF0007B7C8 /* HeaderData.swift */; };
 		F382C3F12702721E00DF8A19 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382C3F02702721E00DF8A19 /* HeaderView.swift */; };
 		F3A434692702274E009A9E95 /* abacateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A434682702274E009A9E95 /* abacateApp.swift */; };
 		F3A4346B2702274E009A9E95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4346A2702274E009A9E95 /* ContentView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F36FC8D5270B40A40007B7C8 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		F36FC8D7270B4AAF0007B7C8 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		F382C3F02702721E00DF8A19 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F3A434652702274E009A9E95 /* abacate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abacate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A434682702274E009A9E95 /* abacateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abacateApp.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		F3A4347727023A0F009A9E95 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F36FC8D7270B4AAF0007B7C8 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 		F3A4347827023A21009A9E95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F36FC8D5270B40A40007B7C8 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 				F3A4347D27023B45009A9E95 /* RipeningStagesView.swift in Sources */,
 				F3A4347B27023A90009A9E95 /* AvocadoView.swift in Sources */,
 				F3A434692702274E009A9E95 /* abacateApp.swift in Sources */,
+				F36FC8D6270B40A40007B7C8 /* HeaderModel.swift in Sources */,
+				F36FC8D8270B4AAF0007B7C8 /* HeaderData.swift in Sources */,
 				F382C3F12702721E00DF8A19 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
