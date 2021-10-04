@@ -18,6 +18,7 @@
 		F3A4347D27023B45009A9E95 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4347C27023B45009A9E95 /* RipeningStagesView.swift */; };
 		F3A4347F27023B76009A9E95 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4347E27023B76009A9E95 /* SettingsView.swift */; };
 		F3A4348127023B9D009A9E95 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4348027023B9D009A9E95 /* AppView.swift */; };
+		F3E45843270B714500E7A09A /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E45842270B714500E7A09A /* DishesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F3A4347C27023B45009A9E95 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		F3A4347E27023B76009A9E95 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3A4348027023B9D009A9E95 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		F3E45842270B714500E7A09A /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				F3A4347E27023B76009A9E95 /* SettingsView.swift */,
 				F3A4348027023B9D009A9E95 /* AppView.swift */,
 				F382C3F02702721E00DF8A19 /* HeaderView.swift */,
+				F3E45842270B714500E7A09A /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				F3A434692702274E009A9E95 /* abacateApp.swift in Sources */,
 				F36FC8D6270B40A40007B7C8 /* HeaderModel.swift in Sources */,
 				F36FC8D8270B4AAF0007B7C8 /* HeaderData.swift in Sources */,
+				F3E45843270B714500E7A09A /* DishesView.swift in Sources */,
 				F382C3F12702721E00DF8A19 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

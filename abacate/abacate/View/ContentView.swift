@@ -20,22 +20,26 @@ struct ContentView: View {
                     ForEach(headers) { item in
                         HeaderView(header: item)
                     }
-                   
                    }//HStack
                 }
+                // MARK: -  DISHES
+                Text("Avocado Dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                DishesView()
+                    .frame(maxWidth: 640)
                 
                 // MARK: - FOOTER
+                
                 VStack(alignment: .center, spacing: 20) {
                     Text("All about avocados")
                         .font(.system(.title, design: .serif))
-                        .fontWeight(.bold)
-                        .foregroundColor(Color("ColorGreenAdaptive"))
-                        .padding(8)
+                        .modifier(TitleModifier())
                     Text("Everything you wanted to know about avocados but weretoo afraid do ask.")
                         .font(.system(.body, design: .serif))
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color.gray)
-                    
+                        .frame(minHeight: 60)
                 }//VStack
                 .frame(maxWidth: 640)
                 .padding()
@@ -47,6 +51,14 @@ struct ContentView: View {
     }
 }
 
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+        .font(.system(.title, design: .serif))
+        .foregroundColor(Color("ColorGreenAdaptive"))
+        .padding(8)
+    }
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
