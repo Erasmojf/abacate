@@ -13,6 +13,7 @@ struct RecipeDetailView: View {
     // MARK: - PROPERTIES
     var recipe: Recipe
     @State private var pulsate: Bool = false
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
@@ -85,6 +86,8 @@ struct RecipeDetailView: View {
                 VStack {
                     Button(action: {
                         //ACTION
+                        self.presentationMode.wrappedValue.dismiss()
+                        
                     }, label: {
                         Image(systemName: "chevron.down.circle.fill")
                             .font(.title)
