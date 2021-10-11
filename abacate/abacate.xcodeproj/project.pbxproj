@@ -27,6 +27,7 @@
 		F3A4347D27023B45009A9E95 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4347C27023B45009A9E95 /* RipeningStagesView.swift */; };
 		F3A4347F27023B76009A9E95 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4347E27023B76009A9E95 /* SettingsView.swift */; };
 		F3A4348127023B9D009A9E95 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4348027023B9D009A9E95 /* AppView.swift */; };
+		F3B64DFE271474C300152EAF /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B64DFD271474C300152EAF /* RipeningView.swift */; };
 		F3E45843270B714500E7A09A /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E45842270B714500E7A09A /* DishesView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		F3A4347C27023B45009A9E95 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		F3A4347E27023B76009A9E95 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3A4348027023B9D009A9E95 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		F3B64DFD271474C300152EAF /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 		F3E45842270B714500E7A09A /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 				F302528C27106D1E000C5FC3 /* RecipeRatingView.swift */,
 				F302528E27106E89000C5FC3 /* RecipeCookingView.swift */,
 				F30252902710701A000C5FC3 /* RecipeDetailView.swift */,
+				F3B64DFD271474C300152EAF /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				F36FC8D8270B4AAF0007B7C8 /* HeaderData.swift in Sources */,
 				F3E45843270B714500E7A09A /* DishesView.swift in Sources */,
 				F302528F27106E89000C5FC3 /* RecipeCookingView.swift in Sources */,
+				F3B64DFE271474C300152EAF /* RipeningView.swift in Sources */,
 				F3078841270F308C000DCA53 /* FactModel.swift in Sources */,
 				F381E2B4270C7A8E00B9AF51 /* FactsView.swift in Sources */,
 				F3078849270F3A6D000DCA53 /* RecipeCardView.swift in Sources */,
